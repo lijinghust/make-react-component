@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import ReactComp from 'reactcomp2'
+import ReactComp from '../src/comp.js'
 
 class Test extends React.Component{
     render(){
-        return <div>！！！
+        return <div>
+            ！！！
             <ReactComp />
         </div>
     }
